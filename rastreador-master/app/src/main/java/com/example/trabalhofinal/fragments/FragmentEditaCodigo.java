@@ -132,5 +132,13 @@ public class FragmentEditaCodigo extends Fragment {
                 });
             }
         });
+
+        ((Button) view.findViewById(R.id.btnfoto)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MainActivity.replaceFragment(new FragmentCamera(), fragmentManager.beginTransaction());
+            }
+        });
+
     }
 }

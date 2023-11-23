@@ -39,6 +39,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/descrastreioedt" />
 
+    <Button
+        android:id="@+id/btnfoto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Imagem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnapagaredt" />
+
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/descrastreioedt"
         android:layout_width="match_parent"

@@ -11,7 +11,7 @@ import com.example.trabalhofinal.dao.UserDao;
 import com.example.trabalhofinal.entities.Encomenda;
 import com.example.trabalhofinal.entities.User;
 
-@Database(entities = {User.class, Encomenda.class}, version = 1)
+@Database(entities = {User.class, Encomenda.class}, version = 2)
 public abstract class AppDatabase extends RoomDatabase {
     private static AppDatabase instance;
 
