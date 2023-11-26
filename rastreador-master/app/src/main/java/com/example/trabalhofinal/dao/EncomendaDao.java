@@ -15,15 +15,17 @@ public interface EncomendaDao {
     @Insert
     long insertEncomenda(Encomenda encomenda);
 
+    @Delete
+    int deleteEncomenda(Encomenda encomenda);
+
+    @Update
+    int updateEncomenda(Encomenda encomenda);
+
     @Query("SELECT * FROM encomendas")
     List<Encomenda> getAllEncomendas();
 
     @Query("SELECT * FROM encomendas WHERE userId = :userId")
     List<Encomenda> getEncomendasByUserId(long userId);
 
-    @Delete
-    int deleteEncomenda(Encomenda encomenda);
 
-    @Update
-    int updateEncomenda(Encomenda encomenda);
 }

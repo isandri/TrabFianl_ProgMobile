@@ -1,8 +1,10 @@
 <resources>
+
     <string name="app_name">TrabalhoFinal</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <!-- Strings related to login -->
+
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
@@ -11,4 +13,22 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+
+    <string name="hint_usuario">Usuário</string>
+    <string name="hint_senha">Senha</string>
+    <string name="label_entrar">Entrar</string>
+    <string name="label_cadastrar_usuario">Cadastrar Usuário</string>
+
+    <string name="label_salvar">Salvar</string>
+    <string name="label_apagar">Apagar</string>
+    <string name="label_rastrear">Rastrear</string>
+    <string name="label_imagem">Imagem</string>
+    <string name="hint_descricao_rastreio">Insira uma descrição para o Rastreio</string>
+    <string name="hint_codigo_rastreio">Insira o Codigo de Rastreio</string>
+    <string name="label_cancelar">Cancelar</string>
+    <string name="label_cadastrar_encomenda">Cadastrar Encomenda</string>
+    <string name="label_lista_encomendas">Lista de Encomendas</string>
+    <string name="label_buscar">Buscar</string>
+    <string name="label_rastrear_sem_logar">Rastrear sem Logar</string>
+    <string name="label_fazer_login">Fazer Login</string>
 </resources>

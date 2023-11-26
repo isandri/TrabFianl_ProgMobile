@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.FragmentLista">>
+    tools:context=".fragments.FragmentLista">
 
     <Button
         android:id="@+id/btnCadastrarEncomenda"
@@ -13,7 +13,7 @@
         android:layout_marginStart="110dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="111dp"
-        android:text="Cadastrar Encomenda"
+        android:text="@string/label_cadastrar_encomenda"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
